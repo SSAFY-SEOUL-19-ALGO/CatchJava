@@ -1,0 +1,31 @@
+import java.util.Stack;
+
+public class PR12909 {
+	static String s = ")()()";
+	public static void main(String[] args) {
+		Stack<Boolean> st = new Stack<>();
+		st.push(true);	//처음값
+		//검사함
+		for(int i = 0; i<s.length(); i++) {
+			switch(s.charAt(i)) {
+			case '(':
+				st.push(false);
+				break;
+			case ')':
+				if(true==st.pop()) {	//처음값이 나오면->)가 더 많았던것->안맞는괄호
+					System.out.println("false");
+					return;
+				}
+				
+			}
+		}//검사 for 끝
+		
+		//코드 작성할 때는 메인에서 다 작성해보느라 이렇게 썼지만 프로그래머스에서는 리턴방식 -> return st.pop;
+		if(st.pop()==true)
+			System.out.println("true");
+		else
+			System.out.println("false");
+		
+	}
+
+}
