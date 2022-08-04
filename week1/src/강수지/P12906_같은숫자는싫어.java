@@ -1,3 +1,5 @@
+package 강수지;
+
 import java.util.*;
 
 public class P12906_같은숫자는싫어 {
