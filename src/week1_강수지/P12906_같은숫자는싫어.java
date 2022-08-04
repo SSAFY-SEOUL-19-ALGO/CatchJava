@@ -1,8 +1,8 @@
-package °­¼öÁö;
+package week1_ê°•ìˆ˜ì§€;
 
 import java.util.*;
 
-public class P12906_°°Àº¼ıÀÚ´Â½È¾î {
+public class P12906_ê°™ì€ìˆ«ìëŠ”ì‹«ì–´ {
 	public int[] solution(int []arr) {
         ArrayList<Integer> tmp = new ArrayList<>();
         
