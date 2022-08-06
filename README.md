@@ -25,9 +25,14 @@ Lead : 강수지
 
 | 회차  | 알고리즘 분류 | LV  | 문제                                                                                | 비고     |
 | :---: | :-----------: | :-: | :---------------------------------------------------------------------------------- | -------- |
-| 1회차 |      힙       | LV2 | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)          | -        |
-| 1회차 |   스택, 큐    | LV1 | [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) | -        |
-| 1회차 |   스택, 큐    | LV2 | [기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)        | 코드리뷰 |
-| 1회차 |   스택, 큐    | LV2 | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)      | -        |
-| 1회차 |   스택, 큐    | LV2 | [주식 가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)        | -        |
+| **1회차** |      힙       | LV2 | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)          | -        |
+|  |   스택, 큐    | LV1 | [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) | -        |
+|  |   스택, 큐    | LV2 | [기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)        | 코드리뷰 |
+|  |   스택, 큐    | LV2 | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)      | -        |
+|  |   스택, 큐    | LV2 | [주식 가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)        | -        |
+| **2회차** |   완전탐색    | LV2 | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)        | -        |
+|  |   완전탐색    | LV2 | [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)             | -        |
+|  |   그리디    | LV2 | [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)         | -        |
+|  |   그리디    | LV2 | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)     | -        |
+|  |   그리디    | LV3 | [섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861)      | 코드리뷰 |
 
