@@ -6,7 +6,7 @@ public class P42626_더맵게 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution sol = new Solution();
+		Solution_42626 sol = new Solution_42626();
 		int[] arr = {1, 2, 3};	// 예시
 		System.out.println(sol.solution(arr, 14));	// 예시
 	}
@@ -14,16 +14,6 @@ public class P42626_더맵게 {
 }
 
 class Solution_42626 {
-	public boolean check(PriorityQueue<Integer> pq, int K) {
-		while(pq.size() > 0) {
-			if(pq.peek() < K) {
-				return false;
-			} else
-				return true;
-		}
-		return true;
-	}
-	
     public int solution(int[] scoville, int K) {
     	int sco = 0, answer = 0;
     	PriorityQueue<Integer> mh = new PriorityQueue<>();
