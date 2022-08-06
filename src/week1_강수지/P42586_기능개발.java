@@ -1,7 +1,6 @@
 package week1_강수지;
 
 public class P42586_기능개발 {
-	class Solution {
 	    public int[] solution(int[] progresses, int[] speeds) {
 	        int[] tmp = new int[100]; // 작업의 개수 100개 
 	        int day = 0; // 작업일수
@@ -31,5 +30,4 @@ public class P42586_기능개발 {
 	        
 	        return answer;
 	    }
-	}
 }
