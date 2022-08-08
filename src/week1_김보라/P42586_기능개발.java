@@ -8,7 +8,7 @@ public class P42586_기능개발 {
 	
 	public static void main(String[] args) {
 		/*테스트케이스 2번 오류
-		 * TODO : 반례 찾아주세요 ㅠㅠ
+		 * TODO : 반례 찾아주세요 ㅠㅠ 
 		ArrayList<Integer> ret=new ArrayList<>();
 		int tmp=0;
 		int pretmp=-1;
