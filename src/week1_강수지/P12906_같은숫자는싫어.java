@@ -4,7 +4,7 @@ import java.util.*;
 
 public class P12906_같은숫자는싫어 {
 	public int[] solution(int []arr) {
-        ArrayList<Integer> tmp = new ArrayList<>();
+        ArrayList<Integer> tmp = new ArrayList<>(); 
         
         int start = arr[0];
         tmp.add(start);
