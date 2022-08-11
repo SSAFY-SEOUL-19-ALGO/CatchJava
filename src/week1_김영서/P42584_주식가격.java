@@ -1,4 +1,4 @@
-package week1;
+package week1_김영서;
 import java.util.Stack;
 class P42584_주식가격 {
    public int[] solution(int[] prices) {
