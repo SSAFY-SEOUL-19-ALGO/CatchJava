@@ -1,4 +1,5 @@
-package week1;
+package week1_김영서;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
