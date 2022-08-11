@@ -1,4 +1,4 @@
-package week1;
+package week1_김영서;
 import java.util.*;
 
 public class P12906_같은숫자는싫어 {
