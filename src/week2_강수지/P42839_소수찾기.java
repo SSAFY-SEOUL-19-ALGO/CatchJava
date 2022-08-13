@@ -29,8 +29,7 @@ public class P42839_소수찾기 {
     public void dfs(int depth, int length, String numbers) {
         if(depth == length) { 
             int num = charsToInt(arr, length); //char를 int로 변환하기
-            if(isPrime(num)) 
-            	set.add(num); // 소수라면 add
+            if(isPrime(num)) set.add(num); // 소수라면 add
         } else {
             for(int i = 0; i < numbers.length(); i++) {
                 if(!visit[i]) {
