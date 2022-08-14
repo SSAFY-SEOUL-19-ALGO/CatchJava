@@ -1,6 +1,6 @@
 package week2_박건우;
 
-public class P42842 {
+public class P42842 {	// 카펫
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
