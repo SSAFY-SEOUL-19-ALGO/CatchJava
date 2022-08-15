@@ -70,6 +70,8 @@ public class Lv2_기능개발 {
 		int arr5[]= {99, 99, 99};
 		int arr6[]= {1, 1,1};
 		 System.out.println(Arrays.toString(solution(arr, arr2)));
+		
+	
 	}
 
 }
