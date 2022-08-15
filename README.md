@@ -1,6 +1,4 @@
-# SSAFY SEOUL 19반 Java Algorithm Study
-
-#### 알고리즘 과목 평가 대비 및 기업 코딩 테스트 준비를 위한 알고리즘 스터디입니다.
+# 알고리즘 과목 평가 대비 및 기업 코딩 테스트 준비를 위한 알고리즘 스터디입니다.
 
 ## Member
 
@@ -40,4 +38,5 @@ Lead : 강수지
 |  |   BFS/DFS    | LV2 | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)         | -        |
 |  |   BFS/DFS    | LV2 | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)     | -        |
 |  |   BFS/DFS    | LV3 | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)      | 코드리뷰 |
+
 
