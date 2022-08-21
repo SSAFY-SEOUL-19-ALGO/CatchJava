@@ -15,9 +15,9 @@ public class 섬_연결하기 {
         
         Arrays.sort(costs, (o1, o2) -> Integer.compare(o1[2], o2[2])); // 가중치로 정렬 -> 최소 신장 트리 
         
-        parent = new int[costs.length + 1];
-        // set 만들기 
-        for (int i = 0; i < costs.length; i++) {
+        parent = new int[n + 1];
+        
+        for (int i = 0; i < n; i++) { // 초기 - 본인의 부모는 본인 
         	parent[i] = i;
         }
         
@@ -26,14 +26,14 @@ public class 섬_연결하기 {
         	// 사이클이 존재하지 않을 경우에만 간선을 선택한다. 
         	if (find(costs[i][0]) != find(costs[i][1])) { // 부모가 같지 않을 경우 
         		union(costs[i][0], costs[i][1]);
-            	answer += costs[i][2];
+            	answer += costs[i][2]; // 가중치 합 저장 
         	}
         }
 
         return answer;
     }
     
-    static void union(int a, int b) { // 부모가 누구인지 확인하고 부모가 더 큰 쪽에 붙기 
+    static void union(int a, int b) { // 부모가 누구인지 확인하고 부모가 더 큰 쪽에 붙기 - 부모 업데이트 
     	a = find(a);
     	b = find(b);
     	
