@@ -43,9 +43,9 @@ Lead : 강수지
 |  |   BFS/DFS    | LV2 | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)         | 영서 · 원철        |
 |  |   BFS/DFS    | LV2 | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)     | 윤환 · 원철    |
 |  |   BFS/DFS    | LV3 | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)      | 보라 · 수지 |
-| **4회차** | 구현 | 실버3 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | 보라 · 원철 |
+| **4회차** | 구현 | 실버3 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | 수지 · 원철 |
 | | 문자열 | 실버3 | [팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | 영서 · 윤환 |
-| | 그리디 | 실버5 | [뒤집기](https://www.acmicpc.net/problem/1439) | 수지 · 예진 |
+| | 그리디 | 실버5 | [뒤집기](https://www.acmicpc.net/problem/1439) | 건우 · 예진 |
 | | 조합 | 실버3 | [문자열 집합 조합하기](https://www.acmicpc.net/problem/25328) | 보라 · 윤환 |
-| | 순열 | 실버2 | [차이를 최대로](https://www.acmicpc.net/problem/10819) | 예진 |
+| | 순열 | 실버2 | [차이를 최대로](https://www.acmicpc.net/problem/10819) | 보라 · 예진 |
 
