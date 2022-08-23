@@ -14,6 +14,12 @@ public class BJ25328_문자열집합조합하기 {
     static void comb(int cnt, int start, String S) {
         if(cnt == k) {  // k개 문자를 골랐다면
             String pick = String.valueOf(picked);   // 고른 문자들로 문자열 생성
+//            Integer count = map.get(pick);  // 해당 문자열이 나왔던 횟수 확인
+//            if(count == null) { // 처음 만들어진 문자열이라면
+//                map.put(pick, 1);   // 문자열과 나온 횟수 1개로 저장
+//            } else {
+//                map.put(pick, count+1); // 문자열과 기존 횟수+1로 저장
+//            }
             map.merge(pick, 1, Integer::sum);   // HashMap에 문자열과 기존 나온횟수+1로 저장
             return;
         }
