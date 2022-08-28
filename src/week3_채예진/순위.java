@@ -14,11 +14,11 @@ public class 순위 {
         }
 
         // A가 B를 이기고, B가 C를 이기면 A가 C를 이김
-        for (int b = 0; b <= n; b++) { // B
-            for (int a = 0; a <= n; a++) { // A
-                for (int c = 0; c <= n ; c++) { // C
-                    if (graph[a][b] && graph[b][c]) {
-                        graph[a][c] = true;
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= n; j++) {
+                for (int k = 0; k <= n ; k++) {
+                    if (graph[i][k] && graph[j][i]) {
+                        graph[j][k] = true;
                     }
                 }
             }
@@ -30,7 +30,7 @@ public class 순위 {
             for (int j = 1; j <= n; j++) {
                 if (graph[i][j] || graph[j][i]) cnt++;
             }
-            if (cnt == n - 1) answer++; // 본인 제외 본인과의 경쟁 나머지의 승패 여부 값을 알 경우 
+            if (cnt == n - 1) answer++;
         }
         
         return answer;
