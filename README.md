@@ -48,4 +48,9 @@ Lead : 강수지
 | | 그리디 | 실버5 | [뒤집기](https://www.acmicpc.net/problem/1439) | 건우 · 예진 |
 | | 조합 | 실버3 | [문자열 집합 조합하기](https://www.acmicpc.net/problem/25328) | 보라 · 윤환 |
 | | 순열 | 실버2 | [차이를 최대로](https://www.acmicpc.net/problem/10819) | 보라 · 예진 |
+| **5회차**| DP | 실버1 | [포도주 시식](https://www.acmicpc.net/problem/2156) | |
+| | DP | 실버3 | [이친수](https://www.acmicpc.net/problem/2193) | |
+| | DP | 카카오 인턴십 | [경주로 건설](https://school.programmers.co.kr/learn/courses/30/lessons/67259) | |
+| | 그리디 | 실버4 | [동전 0](https://www.acmicpc.net/problem/11047) | |
+| | 수학 | 실버2 | [폰 호석만](https://www.acmicpc.net/problem/21275) | |
 
