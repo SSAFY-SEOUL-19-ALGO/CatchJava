@@ -20,7 +20,6 @@ public class P12906_같은숫자는싫어 {
          for(int j=0;j< tmp.size();j++){
              answer[j] = tmp.get(j);
          }
-
         return answer;
     }
 }
