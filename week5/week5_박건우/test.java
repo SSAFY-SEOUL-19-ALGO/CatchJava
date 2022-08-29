@@ -1,4 +1,4 @@
-package week5_강수지;
+package week5_박건우;
 
 public class test {
 
