@@ -1,9 +1,0 @@
-package week5_강수지;
-
-public class test {
-
-	public static void main(String[] args) {
-		System.out.println("test");
-	}
-
-}
