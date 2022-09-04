@@ -8,7 +8,7 @@ public class BOJ_동전0 {
 
 	public static void main(String[] args) throws IOException {
 		
-		
+		// 뒤집고, 가져와
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		String st[]=br.readLine().split(" ");
 		int N=Integer.parseInt(st[0]);
