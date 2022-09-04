@@ -59,7 +59,7 @@ public class BOJ_경주로건설 {
                 }
             }
         }
-        
+       
         answer=costs[N-1][N-1];
         return answer;
     }
