@@ -56,6 +56,6 @@ Lead : 강수지
 | **6회차** | 그리디 | 실버3 | [에너지 드링크](https://www.acmicpc.net/problem/20115) | 윤환  · 원철 |
 | | 그리디 | 실버3 | [Yonsei TOTO](https://www.acmicpc.net/problem/12018) | 영서  · 보라 |
 | | BFS/DFS | LV3 | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898) | 건우  · 예진 |
-| | BFS/DFS | LV3 | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) |윤환  · 보라
+| | BFS/DFS | LV3 | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | 윤환  · 보라 |
 | | 구현 | 골드5 | [인구 이동](https://www.acmicpc.net/problem/16234) | 민수  · 수지|
 
