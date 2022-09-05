@@ -53,9 +53,9 @@ Lead : 강수지
 | | DP | 카카오 인턴십 | [경주로 건설](https://school.programmers.co.kr/learn/courses/30/lessons/67259) | 수지  · 보라 |
 | | 그리디 | 실버4 | [동전 0](https://www.acmicpc.net/problem/11047) |건우  ·  윤환|
 | | 수학 | 실버2 | [폰 호석만](https://www.acmicpc.net/problem/21275) | 영서  · 원철 |
-| **6회차** | 그리디 | 실버3 | [에너지 드링크](https://www.acmicpc.net/problem/20115) | |
-| | 그리디 | 실버3 | [Yonsei TOTO](https://www.acmicpc.net/problem/12018) | |
-| | BFS/DFS | LV3 | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898) | |
-| | BFS/DFS | LV3 | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | |
-| | 구현 | 골드5 | [인구 이동](https://www.acmicpc.net/problem/16234) | |
+| **6회차** | 그리디 | 실버3 | [에너지 드링크](https://www.acmicpc.net/problem/20115) | 윤환  · 원철 |
+| | 그리디 | 실버3 | [Yonsei TOTO](https://www.acmicpc.net/problem/12018) | 영서  · 보라 |
+| | BFS/DFS | LV3 | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898) | 건우  · 예진 |
+| | BFS/DFS | LV3 | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) |윤환  · 보라
+| | 구현 | 골드5 | [인구 이동](https://www.acmicpc.net/problem/16234) | 민수  · 수지|
 
