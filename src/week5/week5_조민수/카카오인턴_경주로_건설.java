@@ -1,4 +1,4 @@
-package week5_조민수;
+package week5.week5_조민수;
 import java.util.*;
 
 public class 카카오인턴_경주로_건설 {
