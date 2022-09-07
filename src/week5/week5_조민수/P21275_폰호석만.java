@@ -1,4 +1,4 @@
-package week5_조민수;
+package week5.week5_조민수;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
