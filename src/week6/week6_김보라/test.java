@@ -1,9 +1,10 @@
-package week6.week6_채예진;
+package week6.week6_김보라;
 
 public class test {
 
 	public static void main(String[] args) {
-		System.out.println("눈물 ..");
+		// TODO Auto-generated method stub
+
 	}
 
 }
