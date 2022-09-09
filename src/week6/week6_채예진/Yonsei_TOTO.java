@@ -1,4 +1,4 @@
-package week6_채예진;
+package week6.week6_채예진;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
