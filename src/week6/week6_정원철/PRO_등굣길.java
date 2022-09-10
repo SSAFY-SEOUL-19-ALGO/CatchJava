@@ -1,4 +1,4 @@
-package week6_정원철;
+package week6.week6_정원철;
 
 import java.util.Collections;
 
