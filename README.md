@@ -58,7 +58,7 @@ Lead : 강수지
 | | BFS/DFS | LV3 | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898) | 건우  · 예진 |
 | | BFS/DFS | LV3 | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | 윤환  · 보라 |
 | | 구현 | 골드5 | [인구 이동](https://www.acmicpc.net/problem/16234) | 민수  · 수지|
-| **7회차** | 완전탐색 | 실버3 | [퇴사](https://www.acmicpc.net/problem/14501) | |
-| | 그리디 | 골드5 | [행복유치원](https://www.acmicpc.net/problem/13164) | |
-| | 구현 | 실버4 | [빙고](https://www.acmicpc.net/problem/2578) | |
-| | dfs/bfs | 실버2 | [유기농 배추](https://www.acmicpc.net/problem/1012) | |
+| **7회차** | 완전탐색 | 실버3 | [퇴사](https://www.acmicpc.net/problem/14501) | 건우  · 영서 |
+| | 그리디 | 골드5 | [행복유치원](https://www.acmicpc.net/problem/13164) |  수지  · 원철  |
+| | 구현 | 실버4 | [빙고](https://www.acmicpc.net/problem/2578) |  민수  · 예진  |
+| | BFS/DFS | 실버2 | [유기농 배추](https://www.acmicpc.net/problem/1012) |  윤환  · 보라  |
