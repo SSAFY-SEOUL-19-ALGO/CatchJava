@@ -1,4 +1,4 @@
-package week6_김보라;
+package week6.week6_김보라;
 
 import java.util.LinkedList;
 import java.util.Queue;
