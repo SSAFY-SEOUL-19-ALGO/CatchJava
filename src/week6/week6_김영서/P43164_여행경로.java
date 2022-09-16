@@ -1,4 +1,4 @@
-package week6_김영서;
+package week6.week6_김영서;
 
 import java.util.ArrayList;
 import java.util.Arrays;

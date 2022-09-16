@@ -1,4 +1,4 @@
-package week6_김영서;
+package week6.week6_김영서;
 
 public class p42898_등교길 {
 	class Solution {
