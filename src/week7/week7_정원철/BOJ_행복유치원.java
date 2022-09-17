@@ -40,6 +40,6 @@ public class BOJ_행복유치원 {
 		for(int i=0; i<N-K; i++) result+=keyList[i];
 		
 		System.out.println(result);
-
+ 
 	}
 }
