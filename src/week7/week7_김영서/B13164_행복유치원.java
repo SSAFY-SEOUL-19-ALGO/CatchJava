@@ -1,4 +1,4 @@
-package week7_김영서;
+package week7.week7_김영서;
  
 import java.util.*;
 import java.io.*;

@@ -1,4 +1,4 @@
-package week7_김보라;
+package week7.week7_김보라;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
