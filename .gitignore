@@ -1,4 +1,16 @@
-/bin/
+
+# Eclipse
+bin/
+.metadata/
 .classpath
 .project
 .settings/
+
+# Intellij
+out/
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
