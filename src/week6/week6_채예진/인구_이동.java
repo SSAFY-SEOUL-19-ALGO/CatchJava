@@ -19,27 +19,27 @@ public class 인구_이동 {
 			this.y = y;
 		}
 	}
-	
+
 	static int N, L, R;
 	static int[][] country;
 	static boolean[][] visited;
 	static List<Point> list;
 	static int[] dx = {1, -1, 0, 0}; // 하상우좌 
 	static int[] dy = {0, 0, 1, -1}; // 하상우좌 
-	
+
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String[] s = br.readLine().split(" ");
-		
+
 		N = Integer.parseInt(s[0]);
 		L = Integer.parseInt(s[1]);
 		R = Integer.parseInt(s[2]);
-		
+
 		country = new int[N][N];
 		for (int i = 0; i < N; i++) {
 			country[i] = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 		}
-		
+
 		int answer = 0;
 
 		// bfs로 풀기 
@@ -52,29 +52,29 @@ public class 인구_이동 {
 						list = new ArrayList<>(); // 인구 이동이 필요한 노드
 
 						Point p = new Point(i, j);
-						
+
 						Queue<Point> q = new ArrayDeque<>();
-						
+
 						q.add(p);
 						list.add(p);
-						
+
 						visited[i][j] = true;
-						
+
 						int sum = country[p.x][p.y];
-						
+
 						// bfs 탐색 
 						while (!q.isEmpty()) {
 							Point cur = q.poll();
-							
+
 							for (int d = 0; d < 4; d++) {
 								int nx = cur.x + dx[d];
 								int ny = cur.y + dy[d];
-								
+
 								if (nx < 0 || nx >= N || ny < 0 || ny >= N) continue;
 								if (visited[nx][ny]) continue;
 
 								int diff = Math.abs(country[cur.x][cur.y] - country[nx][ny]);
-								
+
 								if (diff >= L && diff <= R) {
 									q.offer(new Point(nx, ny));
 									list.add(new Point(nx, ny));
@@ -99,7 +99,7 @@ public class 인구_이동 {
 			if (!check) break;
 			answer++;
 		}
-		
+
 		System.out.println(answer);
 	}
 }

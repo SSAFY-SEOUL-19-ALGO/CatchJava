@@ -51,21 +51,18 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.PriorityQueue;
-
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] input = br.readLine().split(" ");
         int n = Integer.parseInt(input[0]);
         int m = Integer.parseInt(input[1]);
-
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int i = 0; i < n; i++) {
             PriorityQueue<Integer> subject = new PriorityQueue<>(Collections.reverseOrder()); // 내림차순
             input = br.readLine().split(" ");
             int p = Integer.parseInt(input[0]);
             int l = Integer.parseInt(input[1]);
-
             input = br.readLine().split(" ");
             if (p < l) {
                 pq.add(1); // 마일리지 제일 조금 넣기
@@ -77,17 +74,14 @@ public class Main {
             for (int j = 0; j < l - 1; j++) subject.poll();
             pq.add(subject.poll()); // 제일 큰 값 빼기
         }
-
         int answer = 0;
         int sum = 0;
         while(!pq.isEmpty()) {
             int val = pq.poll();
-
             if (val + sum > m) break;
             sum += val;
             answer++;
         }
-
         System.out.println(answer);
     }
 }

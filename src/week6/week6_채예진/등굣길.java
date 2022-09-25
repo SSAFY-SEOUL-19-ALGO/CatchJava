@@ -34,7 +34,6 @@ public class 등굣길 {
 /* 정확성 전부 통과, 효율성 시간 초과
     static class Point {
         int x, y, depth;
-
         public Point(int x, int y, int depth) {
             this.x = x;
             this.y = y;
@@ -44,17 +43,13 @@ public class 등굣길 {
     public static int solution(int m, int n, int[][] puddles) {
         int answer = 0;
         int depth = -1;
-
         int[] dx = {1, 0}; // 아래쪽, 오른쪽
         int[] dy = {0, 1};
-
         Queue<Point> q = new ArrayDeque<>();
         q.add(new Point(1, 1, 0));
-
         // bfs
         while(!q.isEmpty()) {
             Point cur = q.poll();
-
             if (cur.x == m && cur.y == n) {
                 if (depth == -1) {
                     answer++;
@@ -65,26 +60,22 @@ public class 등굣길 {
                     break;
                 }
             }
-
             for (int i = 0; i < 2; i ++) {
                 int nx = cur.x + dx[i];
                 int ny = cur.y + dy[i];
                 boolean check = false;
                 if (nx < 1 || nx > m || ny < 1 || ny > n) continue;
-
                 for (int[] puddle : puddles) {
                     if (nx == puddle[0] && ny == puddle[1]) {
                         check = true;
                         break;
                     }
                 }
-
                 if (!check) {
                     q.offer(new Point(nx, ny, cur.depth + 1));
                 }
             }
         }
-
         return answer % 1000000007;
     }
  */
