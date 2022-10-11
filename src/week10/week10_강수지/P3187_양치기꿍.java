@@ -43,7 +43,7 @@ public class P3187_양치기꿍 {
 			for (int j = 0; j < C; j++) {
 				map[i][j] = s2.charAt(j);
 				
-				if(map[i][j]=='#') { // 울타리 기준으로 bfs !
+				if(map[i][j]=='#') { // 울타리 기준으로 !
 					list.add(new node(i,j));
 				}
 				if(map[i][j]=='k') s++; // 양
