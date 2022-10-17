@@ -78,3 +78,4 @@ Lead : 강수지
 |**11회차**|구현|골드5|[빗물](https://www.acmicpc.net/problem/14719)||
 | |bfs/dfs|실버1|[봄버맨](https://www.acmicpc.net/problem/16918)||
 | |완전탐색|골드4|[가르침](https://www.acmicpc.net/problem/1062)||
+| |그리디|골드1|[멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)||
