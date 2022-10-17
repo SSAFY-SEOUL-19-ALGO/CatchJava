@@ -15,7 +15,7 @@ public class P2002_추월 { // 발표 !
 			start.put(bf.readLine(), i+1);
 		} // 차1 : 1, 차2: 2 ... 3 4 5 
 		
-		// 나오는 차는 앞에 받은 key만 저장하자 !
+		// 나오는 차는 앞에 받은 value 값만 저장하자 !
 		int[] out = new int[N];
 		for (int i = 0; i < N; i++) {
 			String s =  bf.readLine();
