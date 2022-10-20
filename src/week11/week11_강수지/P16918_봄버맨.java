@@ -65,7 +65,7 @@ public class P16918_봄버맨 {
 	}
 
 	private static void Boom() {
-		// 시간이 다 된 폭탄을 터뜨린다
+		// 시간이 다 된 폭탄을 터뜨린다 
 		for (int i = 0; i < R; i++) {
 			for (int j = 0; j < C; j++) {
 				if(booming[i][j] == time) {
