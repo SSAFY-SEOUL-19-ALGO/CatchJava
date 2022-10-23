@@ -74,7 +74,12 @@ Lead : 강수지
 | | 문자열 | 골드5 | [회문](https://www.acmicpc.net/problem/17609) | 윤환 · 보라 |
 |**10회차**|문자열|실버1|[추월](https://www.acmicpc.net/problem/2002)| 윤환 · 수지 |
 | |bfs/dfs|실버1|[양치기 꿍](https://www.acmicpc.net/problem/3187)| 건우 · 예진 |
-| |그리디|골드3|[욕심쟁이 판다](https://www.acmicpc.net/problem/1937)|  민수  · 원철 · 보라  |
-|**11회차**|구현|골드5|[빗물](https://www.acmicpc.net/problem/14719)||
-| |bfs/dfs|실버1|[봄버맨](https://www.acmicpc.net/problem/16918)||
-| |완전탐색|골드4|[가르침](https://www.acmicpc.net/problem/1062)||
+| |그리디|골드3|[욕심쟁이 판다](https://www.acmicpc.net/problem/1937)|  민수 · 원철 · 보라  |
+|**11회차**|구현|골드5|[빗물](https://www.acmicpc.net/problem/14719)| 예진 · 원철 |
+| |bfs/dfs|실버1|[봄버맨](https://www.acmicpc.net/problem/16918)| 윤환 · 수지 |
+| |완전탐색|골드4|[가르침](https://www.acmicpc.net/problem/1062)| 건우 |
+| |그리디|골드1|[멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)| 민수 · 보라 |
+|**12회차**|구현|골드4|[puyo puyo](https://www.acmicpc.net/problem/11559)||
+| |백트래킹|골드3|[소문난 칠공주](https://www.acmicpc.net/problem/1941)||
+| |구현 | 골드4 | [카드 섞기](https://www.acmicpc.net/problem/1091) | |
+| | 구현 | 실버3 | [미로 만들기](https://www.acmicpc.net/problem/1347) | |
