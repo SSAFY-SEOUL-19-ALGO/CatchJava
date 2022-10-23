@@ -79,3 +79,7 @@ Lead : 강수지
 | |bfs/dfs|실버1|[봄버맨](https://www.acmicpc.net/problem/16918)| 윤환 · 수지 |
 | |완전탐색|골드4|[가르침](https://www.acmicpc.net/problem/1062)| 건우 |
 | |그리디|골드1|[멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)| 민수 · 보라 |
+|**12회차**|구현|골드4|[puyo puyo](https://www.acmicpc.net/problem/11559)||
+| |백트래킹|골드3|[소문난 칠공주](https://www.acmicpc.net/problem/1941)||
+| |구현 | 골드4 | [카드 섞기](https://www.acmicpc.net/problem/1091) | |
+| | 구현 | 실버3 | [미로 만들기](https://www.acmicpc.net/problem/1347) | |
