@@ -24,7 +24,7 @@ public class 카드_섞기 {
 		
 		int count = 0;
 		while (true) {
-			System.out.println(Arrays.toString(card));
+//			System.out.println(Arrays.toString(card));
 			boolean check = check(card);
 			if (check) { // P와 같아졌을 경우 
 				System.out.println(count);
