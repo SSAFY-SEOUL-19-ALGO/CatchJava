@@ -40,7 +40,7 @@ public class BJ1062_가르침 {
         visited['c' - 'a'] = true;
 
         for (int i = 0; i < N; i++) {
-            String str = br.readLine().replaceAll("anta|tica", "");
+            String str = br.readLine().replaceAll("anta|t", "");
             words[i] = str;
         }
 
