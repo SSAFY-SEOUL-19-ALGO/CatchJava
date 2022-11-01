@@ -1,0 +1,60 @@
+package week12.week12_김보라;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class BJ1347_미로만들기 {
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		String str = br.readLine();
+
+		char arr[][] = new char[101][101];
+		for (int i = 0; i < 101; i++) {
+			for (int j = 0; j < 101; j++)
+				arr[i][j] = '#';
+		}
+		int[] start= new int[2];//중간부터 시작
+		int[] min = new int[2];
+		int[] max = new int[2];
+		start[0]=50;
+		start[1]=50;
+		min[0]=50;
+		min[1]=50;
+		max[0]=50;
+		max[1]=50;
+		int d = 0;
+		arr[start[1]][start[0]] = '.';
+		
+		int dx[] = {0,-1,0,1};
+		int dy[] = {1,0,-1,0};
+		for (int i = 0; i < str.length(); i++) {
+			if (str.charAt(i) == 'F') {
+				start[0] += dx[d];
+				start[1] += dy[d];
+				arr[start[1]][start[0]] = '.';
+				max[0] = Math.max(max[0], start[0]);
+				max[1] = Math.max(max[1], start[1]);
+				min[0] = Math.min(min[0], start[0]);
+				min[1] = Math.min(min[1], start[1]);
+			} else if (str.charAt(i) == 'L') {
+				if (d == 0)
+					d = 3;
+				else
+					d--;
+			} else {
+				if (d == 3)
+					d = 0;
+				else
+					d++;
+			}
+		}
+
+		for (int i = min[1]; i <= max[1]; i++) {
+			for (int j = min[0]; j <= max[0]; j++) {
+				System.out.print(arr[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}

@@ -1,0 +1,46 @@
+package week12.week12_김보라;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+
+public class BJ1091_카드섞기 {
+
+	public static void main(String[] args) throws Exception {
+		 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	      
+	      int N = Integer.parseInt(br.readLine());
+	      int[] p = new int[N];
+	      int[] order = new int[N];
+	      int[] cards = new int[N];
+	      
+	      String st[] = br.readLine().split(" ");
+	      for(int i=0;i<N;i++) {
+	    	  p[i] = Integer.parseInt(st[i]);
+	      }
+	      
+	      st= br.readLine().split(" ");
+	      for(int i=0;i<N;i++) {
+	         order[Integer.parseInt(st[i])] = i;
+	         cards[i] = i%3;
+	      }
+	 
+	      int[] compare = cards.clone();
+	      int[] next = new int[N];
+	 
+	      int result = 0;
+	      while(!Arrays.equals(cards,p) && !(result !=0 && Arrays.equals(cards, compare))) {
+	         for(int j=0;j<N;j++) next[order[j]] = cards[j];
+	         
+	         cards = next.clone();
+	         result++;
+	      }
+	   
+	      if(result !=0 && Arrays.equals(cards, compare))
+	    	  System.out.println(-1);
+	      else 
+	    	  System.out.println(result);
+
+	}
+
+}
